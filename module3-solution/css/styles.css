@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    justify-content: left;
+}
+
+.navbar-brand {
+    color: white;
+    align-self: start;
+    text-align: right;
+}
+
+.col-xs-12 {
+    background-color: teal;
+    min-height: 1000px;
+    width: 100%;
+    color: white
+}
+
+@media (min-width: 768px) {
+    .visible-xs {
+        display: none !important;
+    }
+}
